@@ -1,6 +1,8 @@
 name: Update GKD Subscription
+
 permissions:
   contents: write
+  
 on:
   schedule:
     - cron: "0 3 * * *"
